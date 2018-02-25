@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HomeComponent } from './home.component';
+import { PreviewRecipeModule } from '../preview-recipe/preview-recipe.module';
 
 
 @NgModule({
@@ -8,6 +9,7 @@ import { HomeComponent } from './home.component';
     HomeComponent
   ],
   imports: [
+    PreviewRecipeModule
   ],
   providers: [],
   bootstrap: [HomeComponent],
